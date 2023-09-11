@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.New {
+  background-color: aqua;
+  height: 100vh;
+  width: 200px;
+  color: black;
+}
+.Container {
+  background-color: aliceblue;
+  display: flex;
+}
+.Down {
+  background-color: deepskyblue;
+  margin-top: auto;
+  width: 100%;
+}
+.Dash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.Footer {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  background-color: white;
+  height: 100%;
+  padding: 5px 10px;
+  outline: none;
+  border: 2px solid green;
+  border-radius: 20px;
+  color: black;
+}
